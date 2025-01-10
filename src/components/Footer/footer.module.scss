@@ -7,22 +7,23 @@
   background: linear-gradient(to bottom, #f5f5fc, #1c8d9c, #202659);
 
   .container {
-    width: 50%;
-    margin-top: 30px;
+    width: 640px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     .list {
-      width: 70%;
+      width: 500px;
+      padding: 0;
       list-style: none;
       display: flex;
       justify-content: space-between;
       align-items: center;
 
       .item {
-        width: 25%;
+        width: 125px;
         transform: scale(1);
         transition: 0.5s;
 

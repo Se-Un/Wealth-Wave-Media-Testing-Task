@@ -7,7 +7,7 @@ function BannerGame() {
     <section className={styles.banner}>
       <h2 className={styles.title}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
       <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque pariatur autem iure magni, odio ipsum possimus molestiae accusamus soluta repudiandae?</p>
-      <Link className={styles.link} to='#'>Start Game</Link>
+      <Link className={styles.link} to='/game'>Start Game</Link>
     </section>
   )
 }
