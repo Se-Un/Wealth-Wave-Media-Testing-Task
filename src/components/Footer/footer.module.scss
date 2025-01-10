@@ -1,0 +1,60 @@
+.footer {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  background: linear-gradient(to bottom, #f5f5fc, #1c8d9c, #202659);
+
+  .container {
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .list {
+      width: 70%;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .item {
+        width: 25%;
+        transform: scale(1);
+        transition: 0.5s;
+
+        .link {
+          font-size: 20px;
+          line-height: 24px;
+          font-weight: 600;
+          color: white;
+          text-decoration: none;
+          text-align: center;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+      }
+    }
+
+    .text {
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 500;
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .logo, .ageImg {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 50%;
+  }
+}
